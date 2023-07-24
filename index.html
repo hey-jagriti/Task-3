@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3 Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Music Webapp</h1>
+    <div id="container">
+      <div id="music-img"></div>
+      <h2 id="audio-name">Name</h2>
+      <div id="time">
+        <span id="current-time">0:00</span>/<span id="duration">0:00</span>
+      </div>
+      <input type="range" id="music-progress-bar" value="0" />
+      <div id="icons">
+        <img id="rewind" src="icons/rewind.png" width="40px" />
+        <img id="play-pause" src="icons/play.png" width="60px" />
+        <img id="fast-forward" src="icons/fast-forward.png" width="40px" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
